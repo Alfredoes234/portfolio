@@ -32,7 +32,7 @@ export default function RootLayout({
             wow
           </div>
           <div className="m-3">
-            <AiFillGithub />
+            <Link href="https://github.com/Alfredoes234"><AiFillGithub size={24} /></Link>
           </div>
         </footer>
       </body>
