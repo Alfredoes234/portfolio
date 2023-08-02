@@ -21,13 +21,13 @@ export default function RootLayout({
         <nav className="flex items-center justify-between border border-gray-500 bg-slate-200">
           <Link href={"/"} className="text-2xl m-3">Alfie</Link>
           <div className="flex items-center gap-5 m-3 text-xl">
-            <p>fun</p>
-            <p>fun</p>
+            <p className="transition hover:bg-gray-400 rounded-lg pt-1.5 pb-1.5 pl-4 pr-4">fun</p>
+            <p className="transition hover:bg-gray-400 rounded-lg pt-1.5 pb-1.5 pl-4 pr-4">fun</p>
           </div>
         </nav>
         {children}
         <footer className="flex items-center justify-between border border-gray-500 bg-slate-200">
-          <p className="m-3">copyshmright</p>
+          <p className="m-3 ">copyshmright</p>
           <div className="m-3">
             wow
           </div>
