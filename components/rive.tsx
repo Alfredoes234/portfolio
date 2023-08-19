@@ -3,7 +3,7 @@ import { useRive } from '@rive-app/react-canvas';
 
 export default function Rive() {
     const { rive, RiveComponent} = useRive({
-        src: '../rive_101.riv',
+        src: '/ball.riv',
         autoplay: true,
     });
     return(
