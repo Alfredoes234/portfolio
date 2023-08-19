@@ -1,4 +1,4 @@
-import Badges from "@/components/badges";
+import Rive from "@/components/rive";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
         Stuff
       </div>
       <div>
-        <Badges/>
+        <Rive />
       </div>
     </>
   );
