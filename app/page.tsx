@@ -7,7 +7,7 @@ export default function Home() {
       <div>
         Stuff
       </div>
-      <div>
+      <div className="w-20 h-20">
         <Rive />
       </div>
     </>
