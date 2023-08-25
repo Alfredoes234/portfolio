@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={archivo.className}>
-      <body>
+      <body className="text-bblack bg-back ">
         <nav className="flex items-center justify-between">
           <Link href={"/"} className="text-2xl m-3 text-h3">Rayner</Link>
           <div className="flex items-center gap-5 m-3 text-xl">
@@ -28,11 +28,11 @@ export default function RootLayout({
         </nav>
         {children}
         <footer className="flex content-normal items-center justify-between  bg-grey h-20">
-          <div className="m-3 w-20 h-8 justify-center items-center gap-5 inline-flex">
+          <div className="ml-3 mt-3 mb-3 w-20 h-8 justify-center items-center gap-5 inline-flex">
             <Link href="https://github.com/Alfredoes234" aria-label="Github Profile"><AiFillGithub size={24} /></Link>
             <Link href="https://www.linkedin.com/in/alfierayner" aria-label="Linkedin Profile"><AiFillLinkedin size={24} /></Link>
           </div>
-          <p className="m-3 ">© Copyright 2023 Alfie Rayner. All rights reserved.</p>
+          <p className="m-3">© Copyright 2023 Alfie Rayner. All rights reserved.</p>
           <div className="m-3"></div> 
         </footer>
       </body>

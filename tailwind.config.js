@@ -28,27 +28,27 @@ module.exports = {
         fontWeight: '300',
       }],
       'hero': ['128px', {
-        lineHeight: '139.3px',
+        lineHeight: '120px',
         letterSpacing: '0',
         fontWeight: '900',
       }],
       'para': ['32px', {
-        lineHeight: '34.8px',
+        lineHeight: '35px',
         letterSpacing: '0',
         fontWeight: '300',
       }],
       'h1': ['64px', {
-        lineHeight: '69.6px',
+        lineHeight: '70px',
         letterSpacing: '0',
         fontWeight: '700',
       }],
       'h2': ['48px', {
-        lineHeight: '52.2px',
+        lineHeight: '52px',
         letterSpacing: '0',
         fontWeight: '600',
       }],
       'h3': ['36px', {
-        lineHeight: '39.2px',
+        lineHeight: '39px',
         letterSpacing: '0',
         fontWeight: '500',
       }],
