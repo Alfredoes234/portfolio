@@ -12,6 +12,51 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+    }, 
+    colors: {
+      'primary': '#3FC1C9',
+      'secondary': '#C6E0FA',
+      'accent': '#12E27A',
+      'bblack': '#22282F',
+      'back': '#F5F5F5',
+      'grey': '#D9D9D9'
+    },
+    fontSize: {
+      'small': ['16px', {
+        lineHeight: '17px',
+        letterSpacing: '0',
+        fontWeight: '300',
+      }],
+      'hero': ['128px', {
+        lineHeight: '139.3px',
+        letterSpacing: '0',
+        fontWeight: '900',
+      }],
+      'para': ['32px', {
+        lineHeight: '34.8px',
+        letterSpacing: '0',
+        fontWeight: '300',
+      }],
+      'h1': ['64px', {
+        lineHeight: '69.6px',
+        letterSpacing: '0',
+        fontWeight: '700',
+      }],
+      'h2': ['48px', {
+        lineHeight: '52.2px',
+        letterSpacing: '0',
+        fontWeight: '600',
+      }],
+      'h3': ['36px', {
+        lineHeight: '39.2px',
+        letterSpacing: '0',
+        fontWeight: '500',
+      }],
+      'button': ['24px', {
+        lineHeight: '29px',
+        letterSpacing: '0',
+        fontWeight: '400',
+      }],
     },
   },
   plugins: [],

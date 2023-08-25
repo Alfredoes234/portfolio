@@ -1,9 +1,10 @@
 import Link from "next/link";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Archivo } from "next/font/google";
 import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
-const inter = Inter({ subsets: ["latin"] });
+const archivo = Archivo({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Portfolio",
@@ -16,24 +17,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={archivo.className}>
       <body>
-        <nav className="flex items-center justify-between border border-gray-500 bg-slate-200">
-          <Link href={"/"} className="text-2xl m-3">Alfie</Link>
+        <nav className="flex items-center justify-between">
+          <Link href={"/"} className="text-2xl m-3 text-h3">Rayner</Link>
           <div className="flex items-center gap-5 m-3 text-xl">
-            <p className="transition hover:bg-gray-400 rounded-lg pt-1.5 pb-1.5 pl-4 pr-4">fun</p>
-            <p className="transition hover:bg-gray-400 rounded-lg pt-1.5 pb-1.5 pl-4 pr-4">fun</p>
+            <Link href={"/education"} className="transition hover:bg-secondary rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Education</Link>
+            <Link href={"/contact"} className="transition bg-primary rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Contact Me</Link>
           </div>
         </nav>
         {children}
-        <footer className="flex items-center justify-between border border-gray-500 bg-slate-200">
-          <p className="m-3 ">copyshmright</p>
-          <div className="m-3">
-            wow
-          </div>
-          <div className="m-3">
+        <footer className="flex content-normal items-center justify-between  bg-grey h-20">
+          <div className="m-3 w-20 h-8 justify-center items-center gap-5 inline-flex">
             <Link href="https://github.com/Alfredoes234" aria-label="Github Profile"><AiFillGithub size={24} /></Link>
+            <Link href="https://www.linkedin.com/in/alfierayner" aria-label="Linkedin Profile"><AiFillLinkedin size={24} /></Link>
           </div>
+          <p className="m-3 ">© Copyright 2023 Alfie Rayner. All rights reserved.</p>
+          <div className="m-3"></div> 
         </footer>
       </body>
     </html>
