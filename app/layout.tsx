@@ -1,8 +1,7 @@
 import Link from "next/link";
 import "./globals.css";
 import { Archivo } from "next/font/google";
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const archivo = Archivo({ subsets: ["latin"] });
 
@@ -19,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={archivo.className}>
       <body className="text-bblack bg-back ">
-        <nav className="flex items-center justify-between">
+        <nav className="flex items-center justify-between mr-6 ml-6">
           <Link href={"/"} className="text-2xl m-3 text-h3">Rayner</Link>
           <div className="flex items-center gap-5 m-3 text-xl">
             <Link href={"/education"} className="transition hover:bg-secondary rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Education</Link>
-            <Link href={"/contact"} className="transition bg-primary rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Contact Me</Link>
+            <Link href={"/contact"} className="transition bg-lightp rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Contact Me</Link>
           </div>
         </nav>
         {children}

@@ -19,7 +19,8 @@ module.exports = {
       'accent': '#12E27A',
       'bblack': '#22282F',
       'back': '#F5F5F5',
-      'grey': '#D9D9D9'
+      'grey': '#D9D9D9',
+      'lightp': '#52E4ED',
     },
     fontSize: {
       'small': ['16px', {

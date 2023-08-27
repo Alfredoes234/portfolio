@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary:#C6E0FA;
+    --secondary: #22282F;
+}
 /* Firefox */
 * {
     scrollbar-width: thin;
