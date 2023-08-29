@@ -31,7 +31,7 @@ export default function Home() {
         <h2 className="text-h2 mb-4">Hobbies</h2>
         <p className="text-para mr-96 break-words">
           I like to code in my spare time when I get a project I want to do, I also like to work out when I can in my free time. I also like to watch anime as well because the stories are fun and interesting, and soldering for little projects, I also have like to
-          listen and find out about physics because I find the subject interesting and web design.
+          listen and find out about physics because I find the subject interesting.
         </p>
       </div>
       <div className="flex justify-center mt-32">
