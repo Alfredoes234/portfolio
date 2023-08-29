@@ -30,17 +30,14 @@ export default function Home() {
       <div className="mt-28">
         <h2 className="text-h2 mb-4">Hobbies</h2>
         <p className="text-para mr-96 break-words">
-          I am a 17 year old with a deep interest in the sciences and business which I find both
-          of them very interesting. I also have played a lot of games in my spare time to relax
-          and have fun. I like to sometimes research random things I find interesting, I also have
-          a lot of, siblings, someday I want to learn how to make music that I like and make a
-          game.
+          I like to code in my spare time when I get a project I want to do, I also like to work out when I can in my free time. I also like to watch anime as well because the stories are fun and interesting, and soldering for little projects, I also have like to
+          listen and find out about physics because I find the subject interesting and web design.
         </p>
       </div>
       <div className="flex justify-center mt-32">
         <h1 className="text-h1">Projects</h1>
         <div>
-          
+
         </div>
       </div>
       <div className="w-20 h-20">
