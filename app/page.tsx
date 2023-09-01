@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       <div className="flex gap-10 mt-10 mb-48">
         <Link href={"https://github.com/Alfredoes234/BRADBOT"} className="group relative flex transition hover:scale-105 ">
-          <Image src={"/robot.svg"} alt={"Photo of an old timey robot"} width={391} height={391} className="rounded-md object-cover" />
+          <Image src={"/Robot.svg"} alt={"Photo of an old timey robot"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
           <div className="absolute bottom-0 px-4 py-3 w-full">
             <h1 className="text-h3"> Discord Bot </h1>
