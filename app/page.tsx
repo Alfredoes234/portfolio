@@ -38,9 +38,9 @@ export default function Home() {
         <Link href={"https://github.com/Alfredoes234/BRADBOT"} className="group relative flex transition hover:scale-105 ">
           <Image src={"/robot.svg"} alt={"Photo of an old timey robot"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
-          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
-            <h1 className="text-white font-semibold text-4xl"> Discord Bot </h1>
-            <p className="text-gray-200">
+          <div className="absolute bottom-0 px-4 py-3 w-full">
+            <h1 className="text-h3"> Discord Bot </h1>
+            <p className="text-small">
               A discord bot made using python
             </p>
           </div>
@@ -48,9 +48,9 @@ export default function Home() {
         <Link href={""} className="group relative flex transition hover:scale-105 ">
           <Image src={"/project_rectangle.svg"} alt={"Work in progress"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
-          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
-            <h1 className="text-white font-semibold text-4xl"> Wip </h1>
-            <p className="text-gray-200">
+          <div className="absolute bottom-0 px-4 py-3 w-full">
+            <h1 className="text-h3"> Wip </h1>
+            <p className="text-small">
               Desc
             </p>
           </div>
@@ -58,9 +58,9 @@ export default function Home() {
         <Link href={""} className="group relative flex transition hover:scale-105 ">
           <Image src={"/project_rectangle.svg"} alt={"Work in progress"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
-          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
-            <h1 className="text-white font-semibold text-4xl"> Wip </h1>
-            <p className="text-gray-200">
+          <div className="absolute bottom-0 px-4 py-3 w-full">
+            <h1 className="text-h3"> Wip </h1>
+            <p className="text-small">
               Desc
             </p>
           </div>
@@ -68,9 +68,9 @@ export default function Home() {
         <Link href={""} className="group relative flex transition hover:scale-105 ">
           <Image src={"/project_rectangle.svg"} alt={"Work in progress"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
-          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
-            <h1 className="text-white font-semibold text-4xl"> Wip </h1>
-            <p className="text-gray-200">
+          <div className="absolute bottom-0 px-4 py-3 w-full">
+            <h1 className="text-h3"> Wip </h1>
+            <p className="text-small">
               Desc
             </p>
           </div>
