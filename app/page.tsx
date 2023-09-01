@@ -6,12 +6,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="mt-44 ml-24 mr-16">
-      <div className="ml-64 mb-[550px]">
+      <div className="ml-64 mb-[575px]">
         <div className="text-hero"> Hi I&apos;m<span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-bblack text-opacity-0"> Alfie</span></div>
-        <div className="text-h3">
+        <h3 className="text-h3">
           Junior Software Developer &
           Designer
-        </div>
+        </h3>
       </div>
       <div className="flex">
         <div className="flex-shrink-0">
@@ -39,7 +39,7 @@ export default function Home() {
           <Image src={"/Robot.svg"} alt={"Photo of an old timey robot"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
           <div className="absolute bottom-0 px-4 py-3 w-full">
-            <h1 className="text-h3"> Discord Bot </h1>
+            <h3 className="text-h3"> Discord Bot </h3>
             <p className="text-small">
               A discord bot made using python
             </p>
@@ -49,7 +49,7 @@ export default function Home() {
           <Image src={"/project_rectangle.svg"} alt={"Work in progress"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
           <div className="absolute bottom-0 px-4 py-3 w-full">
-            <h1 className="text-h3"> Wip </h1>
+            <h3 className="text-h3"> Wip </h3>
             <p className="text-small">
               Desc
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
           <Image src={"/project_rectangle.svg"} alt={"Work in progress"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
           <div className="absolute bottom-0 px-4 py-3 w-full">
-            <h1 className="text-h3"> Wip </h1>
+            <h3 className="text-h3"> Wip </h3>
             <p className="text-small">
               Desc
             </p>
@@ -69,7 +69,7 @@ export default function Home() {
           <Image src={"/project_rectangle.svg"} alt={"Work in progress"} width={391} height={391} className="rounded-md object-cover" />
           <div className="absolute rounded-md bg-grey w-full h-full opacity-5 transition-opacity duration-500 group-hover:opacity-80 " />
           <div className="absolute bottom-0 px-4 py-3 w-full">
-            <h1 className="text-h3"> Wip </h1>
+            <h3 className="text-h3"> Wip </h3>
             <p className="text-small">
               Desc
             </p>
