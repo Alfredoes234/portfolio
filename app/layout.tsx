@@ -24,8 +24,8 @@ export default function RootLayout({
             <span className="absolute -bottom-1 left-0 w-0 h-2 bg-accent transition-all group-hover:w-full"></span>
           </Link>
           <div className="flex items-center gap-5 m-3 text-xl">
-            <Link href={"/education"} className="transition hover:bg-secondary rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Education</Link>
-            <Link href={"/contact"} className="transition bg-lightp rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Contact Me</Link>
+            <Link href={"/education"} className="transition hover:bg-accent rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Education</Link>
+            <Link href={"/contact"} className="transition bg-primary rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button text-back">Contact Me</Link>
           </div>
         </nav>
         {children}
