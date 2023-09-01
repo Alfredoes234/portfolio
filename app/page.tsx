@@ -36,9 +36,46 @@ export default function Home() {
       </div>
       <div className="flex justify-center mt-32">
         <h1 className="text-h1">Projects</h1>
-        <div>
-
+      </div>
+      <div className="flex gap-10 mt-5">
+        <div className="relative hover:scale-105">
+          <Image src={"/project_rectangle.svg"} alt={"Photo of me"} width={391} height={391} />
+          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
+            <h1 className="text-white font-semibold text-4xl"> Discord Bot </h1>
+            <p className="text-gray-200">
+              A discord bot made using python
+            </p>
+          </div>
         </div>
+        <div className="relative hover:scale-105">
+          <Image src={"/project_rectangle.svg"} alt={"Photo of me"} width={391} height={391} />
+          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
+            <h1 className="text-white font-semibold text-4xl"> Wip </h1>
+            <p className="text-gray-200">
+              Desc
+            </p>
+          </div>
+        </div>
+        <div className="relative hover:scale-105">
+          <Image src={"/project_rectangle.svg"} alt={"Photo of me"} width={391} height={391} />
+          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
+            <h1 className="text-white font-semibold text-4xl"> Wip </h1>
+            <p className="text-gray-200">
+              Desc
+            </p>
+          </div>
+        </div>
+        <div className="relative hover:scale-105">
+          <Image src={"/project_rectangle.svg"} alt={"Photo of me"} width={391} height={391} />
+          <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
+            <h1 className="text-white font-semibold text-4xl"> Wip </h1>
+            <p className="text-gray-200">
+              Desc
+            </p>
+          </div>
+        </div>
+        
+
       </div>
       <div className="w-20 h-20">
         <Rive />

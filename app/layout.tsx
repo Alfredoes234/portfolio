@@ -19,7 +19,10 @@ export default function RootLayout({
     <html lang="en" className={archivo.className}>
       <body className="text-bblack bg-back ">
         <nav className="flex items-center justify-between mr-6 ml-6">
-          <Link href={"/"} className="text-2xl m-3 text-h3">Rayner</Link>
+          <Link href={"/"} className="relative group text-2xl m-3 text-h3">
+            Rayner
+            <span className="absolute -bottom-1 left-0 w-0 h-2 bg-accent transition-all group-hover:w-full"></span>
+          </Link>
           <div className="flex items-center gap-5 m-3 text-xl">
             <Link href={"/education"} className="transition hover:bg-secondary rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Education</Link>
             <Link href={"/contact"} className="transition bg-lightp rounded-lg pt-1.5 pb-1.5 pl-4 pr-4 text-button">Contact Me</Link>
