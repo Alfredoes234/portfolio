@@ -5,7 +5,7 @@ export default function Education() {
     return(
         <main className="mt-24 ml-24 mr-16">
             <h1 className="text-h1">Education</h1>
-            <div className="flex mt-10 mb-24">
+            <div className="flex mt-10 mb-24 gap-7">
                 <div>
                     <h3 className="text-h3">Crispin 2017-2022</h3>
                     <p className="text-para">
